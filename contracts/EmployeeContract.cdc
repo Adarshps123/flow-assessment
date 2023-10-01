@@ -12,7 +12,7 @@ pub contract EmployeeContract {
         }
     }
 
-    // Declaring a dictionary to store id:name pair
+    // Declaring a dictionary to store employee details.
     pub var employees: {UInt64: Employee}
 
     // Constructor for the contract
