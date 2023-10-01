@@ -1,6 +1,6 @@
 # Smart contract using struct
 
-This project consists of creating an EmployeeContract usin struct.
+This project consists of creating an EmployeeContract using struct.
 
 # Description
 This program contains a simple EmployeeContract using struct written in Cadence, a transaction part and a script part.
