@@ -1,7 +1,7 @@
-// Import employee
+// Importing EmployeeContract
 import EmployeeContract from 0x05
 
-// Transaction to add a student
+// Transaction to add an employee
 transaction(id: UInt64, name: String) {
     
     prepare(acct: AuthAccount) {}
@@ -11,4 +11,3 @@ transaction(id: UInt64, name: String) {
         log("Sucessfully added new  employee")
     }
 }
-
