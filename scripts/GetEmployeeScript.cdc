@@ -1,5 +1,5 @@
 
-// Import StuctContract
+// Import EmployeeContract
 import EmployeeContract from 0x05
 
 pub fun main(id: UInt64): EmployeeContract.Employee? {
