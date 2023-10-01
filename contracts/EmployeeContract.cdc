@@ -15,7 +15,7 @@ pub contract EmployeeContract {
     // Declaring a dictionary to store id:name pair
     pub var employees: {UInt64: Employee}
 
-    // Initialize the contract
+    // Constructor for the contract
     init() {
         self.employees = {}
     }
