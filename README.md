@@ -48,18 +48,40 @@ pub contract EmployeeContract {
   The function is used get an employee based on the id provided.
 # Transactions
 Here AddEmployeeTransaction will add new employee by executing function addNewEmployee.
+```javascript
+// Importing EmployeeContract
+import EmployeeContract from 0x05
 
+// Transaction to add an employee
+transaction(id: UInt64, name: String) {
+    
+    prepare(acct: AuthAccount) {}
+
+    execute {
+        EmployeeContract.addNewEmployee(id: id, name: name)
+        log("Sucessfully added new  employee")
+    }
+}
+```
 # Script
 Here GetEmployeeScript will get the employee details by calling function getEmployee
+```javascript
+// Import EmployeeContract
+import EmployeeContract from 0x05
+
+pub fun main(id: UInt64): EmployeeContract.Employee? {
+  return EmployeeContract.getEmployee(id: id)!
+}
+```
 ## Getting Started
 
 ### Executing program
 To run this project , you can use [Flow Playground](https://play.flow.com/) to Create your Contract, Transaction and Script files.
 
-Once the contract is deployed, you can interact with it by mint and burn.
+Once the contract is deployed, you can pass the transaction arguments and then get the employee details by providing the employee id.
 
 ## Authors
 Adarsh ps
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License
