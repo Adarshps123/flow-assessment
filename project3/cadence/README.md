@@ -2,11 +2,6 @@
 
 This project is a Non-Fungible Token (NFT) implementation on the Flow blockchain. This project utilizes the Flow Non-Fungible Token standard to create, manage, and interact with NFTs, allowing users to mint, manage collections, and retrieve metadata associated with NFTs.
 
-## Requirements
-
-- [Flow Playground](https://play.flow.com/)
-- Cadence Language
-
 ## Contracts
 
 ### `CryptoPoops` Contract
