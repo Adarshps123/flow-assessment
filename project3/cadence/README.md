@@ -27,11 +27,11 @@ This transaction enables the minting of new CryptoPoops NFTs. It interacts with 
 
 ### Scripts
 
-#### `getIdTransaction`
+#### `getIdScript`
 
 This script retrieves the NFT IDs associated with an account's public collection. It allows users to view the IDs of NFTs they own.
 
-#### `metadataTransaction`
+#### `metadataScript`
 
 This script retrieves NFT metadata based on the provided NFT ID from an account's public collection. Users can view the metadata associated with their NFTs.
 
